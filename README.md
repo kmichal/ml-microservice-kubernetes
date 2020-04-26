@@ -31,4 +31,4 @@ A sample call can be found in `make_predictions.sh`
 
 ### Custom Docker Image repos
 
-To push locally build docker image to your repo edit and then run `upload_docker.sh`
+To push locally built docker image to your repo edit and then run `upload_docker.sh`
