@@ -1,1 +1,14 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) michal@michal-desktop:~/udacity/udacity4/ml-microservice-kubernetes$ ./run_kubernetes.sh 
+deployment.apps/api created
+NAME                  READY   STATUS              RESTARTS   AGE
+api-d4d944c56-7tvbt   0/1     ContainerCreating   0          1s
+error: unable to forward port because pod is not running. Current status=Pending
+(.devops) michal@michal-desktop:~/udacity/udacity4/ml-microservice-kubernetes$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): deployments.apps "api" already exists
+NAME                  READY   STATUS    RESTARTS   AGE
+api-d4d944c56-7tvbt   1/1     Running   0          111s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
